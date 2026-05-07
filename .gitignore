@@ -1,0 +1,29 @@
+# UiPath
+.local/
+.uipath/
+TestCases/
+
+# Runtime data — never commit processed files
+Data/Inbox/*
+Data/Processed/*
+Data/Failed/*
+!Data/Inbox/.gitkeep
+!Data/Processed/.gitkeep
+!Data/Failed/.gitkeep
+
+# Generated outputs
+Output/invoices.xlsx
+Output/logs/
+
+# Sample PDFs (large binaries — regenerate with tools script)
+Data/Samples/*.pdf
+Data/Samples/manifest.json
+
+# Python
+__pycache__/
+*.pyc
+.env
+
+# OS
+Thumbs.db
+.DS_Store
